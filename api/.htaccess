@@ -1,0 +1,5 @@
+# جلوگیری از دسترسی مستقیم به فایل تنظیمات (Apache)
+<Files "config.php">
+    Require all denied
+</Files>
+Options -Indexes
